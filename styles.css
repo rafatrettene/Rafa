@@ -11,7 +11,7 @@ header {
     font-size: 32px;
     color: white;
 }
-section {
+.chamada {
     background: rgb(184,156,213);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -30,3 +30,26 @@ section {
  p{
     font-size: 20px;
  } 
+img{
+    height:200px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+section{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.categoria-videos img { 
+   opacity: 0.5;
+   height: 200px;
+}
+
+.categoria-videos img: :hover {
+
+}
